@@ -1,0 +1,67 @@
+{% load staticfiles %}
+
+<!doctype html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8" />
+    <title>Lucas Alves Ferreira - Page</title>
+    <!-- Mobile Specific Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <link rel="stylesheet" href="{% static 'package/tuktuk.css' %}">
+    <link rel="stylesheet" href="{% static 'package/tuktuk.theme.mock.css' %}">
+    <!-- TUKTUK.WIDGETS -->
+    <link rel="stylesheet" href="{% static 'package/tuktuk.icons.css' %}">
+    <link rel="stylesheet" href="{% static 'package/component.json' %}">
+</head>
+<body>
+    <header class="bck class theme padding color red">
+        <div class="row">
+            <div class="column_6">
+                <h2 class="text italic thin">Lucas Alves</h2>
+            </div>
+        </div>
+    </header>
+
+    <section class="padding bck theme">
+        <div class="row ">
+            <div class="column_3 padding" >
+                <img src="{% static 'img/profile.jpg' %}" class=" responsive rounded">
+            </div>
+            <div class="column_9 color normal">
+                <h3 class="text normal italic margin-bottom">Lucas Alves Ferreira</h3>
+                <h4 class="text justify margin-bottom">Seja bem vindo a minha página, aqui você encontrará informações de diversos temas no mundo da tecnologia, além de poder vizualizar meus trabalhos realizados open-sources. </h4>
+                <p><h4 class="text justify margin-bottom">Para mais informações, por favor acesse:
+                </h4>
+            </p>
+
+            <div class="column_3 text big right">
+                <h3><a href="https://github.com/lucasaf" class="margin-right icon github"></span></a>
+                    <a href="https://www.facebook.com/lucasalvf" class="margin-right icon facebook"></span></a>
+                    <a href="http://www.linkedin.com/profile/view?id=318635537&trk=nav_responsive_tab_profile" class="icon linkedin"></span></a><br>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="opensource" class="bck color">
+    <div class="row">
+        <form id="form" name="form" class="margin-top" align="center">
+            <label><h4>Este site está em construção, em breve mais conteúdo. Obrigado pela atenção!</h4></label>
+        </form>
+    </section>
+
+    <footer class="bck light padding align center">
+        <footer class="text-center"><br>Desenvolvido por:
+          <a href="https://www.facebook.com/lucasalvf" target="_blank"><strong>Lucas Alves Ferreira</strong></a> | Telefone: +55 (16) 9 9232-5671
+          <br>
+          <br>
+
+      </footer>
+
+      <script type='text/javascript' src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+      <script type='text/javascript' src="{% static 'grayscale/js/bootstrap.min.js"></script>
+
+      <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+      <script src="{% static 'package/tuktuk.js' %}"></script>
+  </body>
+  </html>
